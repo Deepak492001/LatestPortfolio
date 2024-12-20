@@ -1,9 +1,9 @@
-import connectexp from '../images/connect_with_expert.png'
-import prastuti from '../images/prastuti.png'
-import contentverse from '../images/contentverse.png'
-import todoist from '../images/todoist.png'
-import movieapp from '../images/Movie_app.png'
-import knockout from '../images/knockOut.png'
+// import connectexp from '../images/connect_with_expert.png'
+// import prastuti from '../images/prastuti.png'
+// import contentverse from '../images/contentverse.png'
+// import todoist from '../images/todoist.png'
+// import movieapp from '../images/Movie_app.png'
+// import knockout from '../images/knockOut.png'
 import styled from "styled-components";
 
 const Img = styled.img`
@@ -30,9 +30,9 @@ export const Bio = {
   name: "Deepak Bisht",
   roles: [
     "Full Stack Developer",
-    "Django Developer",
-    "React Developer",
-    "Ruby On Rails Developer",
+    "Backend Developer",
+    "Java Developer",
+    // "Ruby On Rails Developer",
   ],
   description:
     "I'm an enthusiastic Software Development Engineer at Cogoport, a graduate of IIT BHU. Proficient in React and Django, I'm committed to delivering impactful solutions with a positive mindset. Let's collaborate and create excellence together!",
@@ -40,9 +40,9 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1FGng3yL27cqc9V-40Y2wgJEVXZhIo0eO/view",
   linkedin: "https://www.linkedin.com/in/deepak-bisht-1a7bb7281/",
-  twitter: "https://twitter.com/VirendraPilani1",
-  insta: "https://www.instagram.com/virendrapilaniya/",
-  facebook: "https://www.facebook.com/virendra.pilaniya.7",
+    twitter:"https://x.com/BishtDeepak2001?t=4SCf4W-DiIGdZk9PVS3v3A&s=35" ,
+  insta: "#",
+  facebook: "#",
 };
 
 export const skills = [
@@ -105,8 +105,7 @@ export const skills = [
     skills: [
       {
         name: "Java",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+        image:"https://asset.cloudinary.com/dwigyxqql/838bbcf31ca59af89b6b944db3854acc",
       },
 
       {
@@ -204,24 +203,24 @@ export const education = [
     img: "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/Dr._A.P.J._Abdul_Kalam_Technical_University_logo.png/270px-Dr._A.P.J._Abdul_Kalam_Technical_University_logo.png",
     school: "Dr APJ Abdul kalam University",
     date: "Aug 2019 - May 2023",
-    grade: "8.17 CGPA",
-    degree: "Bachelor of Technology - BTech, Metallurgical Engineering",
+    grade: "70%",
+    degree: "Master Of Computer Application - MCA ",
   },
   {
     id: 1,
     img: "https://upload.wikimedia.org/wikipedia/en/4/41/Chaudhary_Charan_Singh_University_logo.png",
     school: "Chaudhary Charan Singh University",
     date: "Aug 2017 - July 2019",
-    grade: "86.20%",
-    degree: "RBSE(XII), Science with Mathematics",
+    grade: "70.5%",
+    degree: "Bachelor Of Computer Application - BCA ",
   },
   {
     id: 2,
     img: "https://upload.wikimedia.org/wikipedia/en/a/a4/BSER-Logo.png",
     school: "Rajkiya Pratibha Vikas Vidyalaya",
     date: "Aug 2016 - May 2017",
-    grade: "91.30%",
-    degree: "RBSE(X)",
+    grade: "76%",
+    degree: "CBSE(XII)",
   },
 ];
 
