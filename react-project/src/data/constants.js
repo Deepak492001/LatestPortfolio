@@ -27,7 +27,7 @@ const Img = styled.img`
 `;
 
 export const Bio = {
-  name: "Virendra Pilaniya",
+  name: "Deepak Bisht",
   roles: [
     "Full Stack Developer",
     "Django Developer",
@@ -36,10 +36,10 @@ export const Bio = {
   ],
   description:
     "I'm an enthusiastic Software Development Engineer at Cogoport, a graduate of IIT BHU. Proficient in React and Django, I'm committed to delivering impactful solutions with a positive mindset. Let's collaborate and create excellence together!",
-  github: "https://github.com/virendra-pilaniya",
+  github: "https://github.com/Deepak492001",
   resume:
     "https://drive.google.com/file/d/1FGng3yL27cqc9V-40Y2wgJEVXZhIo0eO/view",
-  linkedin: "https://www.linkedin.com/in/virendra-pilaniya-1a978b1b1/",
+  linkedin: "https://www.linkedin.com/in/deepak-bisht-1a7bb7281/",
   twitter: "https://twitter.com/VirendraPilani1",
   insta: "https://www.instagram.com/virendrapilaniya/",
   facebook: "https://www.facebook.com/virendra.pilaniya.7",
@@ -51,13 +51,13 @@ export const skills = [
     skills: [
 
       {
-        name: "Django",
+        name: "Java",
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlFFyY16N5NRhzoG24RqB7x8Ok2t8Bdgs-tuMsOBXS2Q&amp;s",
       },
 
       {
-        name: "Rails",
+        name: "Spring Boot",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/2560px-Ruby_On_Rails_Logo.svg.png"
       },
 
@@ -67,11 +67,11 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
       {
-        name: "Postgresql",
+        name: "React",
         image: "https://www.postgresql.org/media/img/about/press/elephant.png",
       },
       {
-        name: "Firebase",
+        name: "Hibernate",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
     ],
@@ -85,10 +85,10 @@ export const skills = [
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
-      
-      
+
+
       {
-        name: "Bootstrap",
+        name: "Tailwind Css",
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
@@ -104,7 +104,7 @@ export const skills = [
     title: "Languages",
     skills: [
       {
-        name: "Python",
+        name: "Java",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       },
@@ -201,16 +201,16 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://diciitbhu.com/wp-content/uploads/2018/06/iit-bhu.png",
-    school: "Indian Institute of Technology, Varanasi (B.H.U)",
+    img: "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/Dr._A.P.J._Abdul_Kalam_Technical_University_logo.png/270px-Dr._A.P.J._Abdul_Kalam_Technical_University_logo.png",
+    school: "Dr APJ Abdul kalam University",
     date: "Aug 2019 - May 2023",
     grade: "8.17 CGPA",
     degree: "Bachelor of Technology - BTech, Metallurgical Engineering",
   },
   {
     id: 1,
-    img: "https://az704457.vo.msecnd.net/img/esstoragesv2/72442_d0dc.png?Square60x60",
-    school: "Navjeevan Shikshan Sansthan, Sikar",
+    img: "https://upload.wikimedia.org/wikipedia/en/4/41/Chaudhary_Charan_Singh_University_logo.png",
+    school: "Chaudhary Charan Singh University",
     date: "Aug 2017 - July 2019",
     grade: "86.20%",
     degree: "RBSE(XII), Science with Mathematics",
@@ -218,7 +218,7 @@ export const education = [
   {
     id: 2,
     img: "https://upload.wikimedia.org/wikipedia/en/a/a4/BSER-Logo.png",
-    school: "Ratan Devi Sethia Public School Sujangarh, Rajasthan",
+    school: "Rajkiya Pratibha Vikas Vidyalaya",
     date: "Aug 2016 - May 2017",
     grade: "91.30%",
     degree: "RBSE(X)",
@@ -228,14 +228,14 @@ export const education = [
 export const projects = [
   {
     id: 9,
-    title: "KnockOut-Voice",
-    date: "Jan 2024 - Feb 2024",
+    title: "Roomies",
+    date: "Apr 2024 - Jul 2024",
     description:
       "A WebApp that provides platform for Boxing lovers around the world join Live-fight rooms, and have discusion about the on-going live events",
     // image:
     //   "https://private-user-images.githubusercontent.com/80153001/306409370-9e2f7d17-84fa-436b-afa2-1e6349db3b3d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA0MTU2MzEsIm5iZiI6MTcxMDQxNTMzMSwicGF0aCI6Ii84MDE1MzAwMS8zMDY0MDkzNzAtOWUyZjdkMTctODRmYS00MzZiLWFmYTItMWU2MzQ5ZGIzYjNkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzE0VDExMjIxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI1ZDcyYzcxN2ZhMDBlZmYyM2M1YWQzYWY3N2RjMmNiNTFlMmVjOTIzM2EwZDc3OTYyOTNjMDQ3NmQ5Y2NmMzMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.0OtHlNhaNpLvgpnYu8zBnYDLDHcmFsoxjus-0u81sI8",
-    image: "https://github.com/virendra-pilaniya/my_portfolio/blob/gh-pages/static/media/knockOut.37570c13be4b7c991d60.png?raw=true",
-
+    // image: "https://github.com/virendra-pilaniya/my_portfolio/blob/gh-pages/static/media/knockOut.37570c13be4b7c991d60.png?raw=true",
+image:"https://github.com/Deepak492001/Roomies/blob/4cb15367362a99f78f69978c215a7ac56971342e/readmefiles/roomies.png",
     tags: [
       "React",
       "Django",
@@ -246,13 +246,13 @@ export const projects = [
 
     ],
     category: "web app",
-    github: "https://github.com/virendra-pilaniya/KnockTalk-Voice",
+    github: "https://github.com/Deepak492001/Roomies",
     webapp: "https://knockout.pythonanywhere.com/",
   },
   {
     id: 0,
-    title: "Connect-With-Expert",
-    date: "Jan 2023 - Mar 2023",
+    title: "Blogify",
+    date: "Jan 2024 - Mar 2024",
     description:
       "Connect-With-Expert: A React-based web app connecting juniors with expert mentors. Features include a curated list of seniors by expertise and a self-mailing system powered by Google SMTP, fostering seamless communication and guidance exchange.",
     image:
@@ -264,8 +264,8 @@ export const projects = [
   },
   {
     id: 1,
-    title: "ContentVerse",
-    date: "May 2023 - Aug 2023",
+    title: "News Web Application",
+    date: "Nov 2023 - Dec 2023",
     description:
       "Introducing a Ruby on Rails CMS designed for content creation, monetization, and community engagement. This system enables seamless CRUD operations for users and posts, integrates advanced search, filtering, and post analytics for improved content performance, and incorporates user following, recommendations, and Razorpay integration for effortless content monetization.",
     image:
@@ -280,47 +280,48 @@ export const projects = [
     category: "web app",
     github: "https://github.com/virendra-pilaniya/Backend-Rails-Medium/tree/master",
     webapp: "https://github.com/virendra-pilaniya/Backend-Rails-Medium/tree/master",
-  },
-  {
-    id: 2,
-    title: "Movie-Listing-App",
-    date: "July 2023 - July 2023",
-    description:
-      "Introducing a movie search app powered by the OMDB API, featuring a user-friendly interface and comprehensive functionality. Users can easily search for movies, access detailed information including duration, director name, and genre, and provide ratings and comments. The app stores ratings and comments locally using localStorage, ensuring personalized experiences across sessions. Additionally, it offers pagination with intuitive navigation buttons, enhancing the browsing experience for users.",
-    image:
-      "https://github.com/virendra-pilaniya/my_portfolio/blob/gh-pages/static/media/Movie_app.c8e9427804ffff240543.png?raw=true",
-    tags: ["Javacript", "HTML", "CSS", "OMDB API"],
-    category: "web app",
-    github: "https://github.com/virendra-pilaniya/Movie-Listing-App",
-    webapp: "https://virendra-pilaniya.github.io/Movie-Listing-App/",
-  },
-  {
-    id: 3,
-    title: "Todo-ist",
-    date: "Mar 2023 - Apr 2023",
-    description:
-      "(Not normal todo -list)This todo list project offers a comprehensive set of features for efficient task management. Users can seamlessly add, edit, and delete tasks, mark them as done or undone, categorize them with priorities and categories, and utilize filters and sorting options for better organization. Additionally, the application supports subtasks, tags, and robust search functionalities. Tasks are stored locally for persistence, and users receive reminders for important deadlines. With activity logs and the ability to view backlogs, our application ensures users stay on top of their tasks with ease and efficiency.",
-    image:
-      "https://github.com/virendra-pilaniya/my_portfolio/blob/gh-pages/static/media/todoist.ace08eaf8352bd6a65bf.png?raw=true",
-    tags: ["Javacript", "HTML", "CSS"],
-    category: "web app",
-    github: "https://github.com/virendra-pilaniya/To-do-list",
-    webapp: "https://virendra-pilaniya.github.io/To-do-list/",
-  },
-  {
-    id: 10,
-    title: "Prastuti Meta Fest",
-    date: "Jun 2021 - Jul 2021",
-    description:
-      "As the backend developer for the Meta Fest WebApp, I created a platform that enabled over 450 teams from across India to collaborate seamlessly. Using Django, I built a system for nationwide team formation, along with an Admin page for easy team management and a user dashboard for enhanced functionality. Additionally, I integrated SMTP for effective workshop communication, making the WebApp a user-friendly solution for event coordination.",
-    image:
-      "https://github.com/virendra-pilaniya/my_portfolio/blob/gh-pages/static/media/prastuti.13fb0cdbd825a45becf7.png?raw=true",
-    tags: ["Django", "Python", "Axios", "HTML", "CSS"],
-    category: "web app",
-    github: "https://github.com/virendra-pilaniya/prastuti-meta-fest",
-    webapp: "https://github.com/virendra-pilaniya/prastuti-meta-fest",
-  },
-  
+  }
+  // ,
+  // {
+  //   id: 2,
+  //   title: "Movie-Listing-App",
+  //   date: "July 2023 - July 2023",
+  //   description:
+  //     "Introducing a movie search app powered by the OMDB API, featuring a user-friendly interface and comprehensive functionality. Users can easily search for movies, access detailed information including duration, director name, and genre, and provide ratings and comments. The app stores ratings and comments locally using localStorage, ensuring personalized experiences across sessions. Additionally, it offers pagination with intuitive navigation buttons, enhancing the browsing experience for users.",
+  //   image:
+  //     "https://github.com/virendra-pilaniya/my_portfolio/blob/gh-pages/static/media/Movie_app.c8e9427804ffff240543.png?raw=true",
+  //   tags: ["Javacript", "HTML", "CSS", "OMDB API"],
+  //   category: "web app",
+  //   github: "https://github.com/virendra-pilaniya/Movie-Listing-App",
+  //   webapp: "https://virendra-pilaniya.github.io/Movie-Listing-App/",
+  // },
+  // {
+  //   id: 3,
+  //   title: "Todo-ist",
+  //   date: "Mar 2023 - Apr 2023",
+  //   description:
+  //     "(Not normal todo -list)This todo list project offers a comprehensive set of features for efficient task management. Users can seamlessly add, edit, and delete tasks, mark them as done or undone, categorize them with priorities and categories, and utilize filters and sorting options for better organization. Additionally, the application supports subtasks, tags, and robust search functionalities. Tasks are stored locally for persistence, and users receive reminders for important deadlines. With activity logs and the ability to view backlogs, our application ensures users stay on top of their tasks with ease and efficiency.",
+  //   image:
+  //     "https://github.com/virendra-pilaniya/my_portfolio/blob/gh-pages/static/media/todoist.ace08eaf8352bd6a65bf.png?raw=true",
+  //   tags: ["Javacript", "HTML", "CSS"],
+  //   category: "web app",
+  //   github: "https://github.com/virendra-pilaniya/To-do-list",
+  //   webapp: "https://virendra-pilaniya.github.io/To-do-list/",
+  // },
+  // {
+  //   id: 10,
+  //   title: "Prastuti Meta Fest",
+  //   date: "Jun 2021 - Jul 2021",
+  //   description:
+  //     "As the backend developer for the Meta Fest WebApp, I created a platform that enabled over 450 teams from across India to collaborate seamlessly. Using Django, I built a system for nationwide team formation, along with an Admin page for easy team management and a user dashboard for enhanced functionality. Additionally, I integrated SMTP for effective workshop communication, making the WebApp a user-friendly solution for event coordination.",
+  //   image:
+  //     "https://github.com/virendra-pilaniya/my_portfolio/blob/gh-pages/static/media/prastuti.13fb0cdbd825a45becf7.png?raw=true",
+  //   tags: ["Django", "Python", "Axios", "HTML", "CSS"],
+  //   category: "web app",
+  //   github: "https://github.com/virendra-pilaniya/prastuti-meta-fest",
+  //   webapp: "https://github.com/virendra-pilaniya/prastuti-meta-fest",
+  // },
+
 ];
 
 export const TimeLineData = [
