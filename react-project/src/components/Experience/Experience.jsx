@@ -82,8 +82,8 @@ const index = () => {
         </Desc>
         <TimelineSection>
           <Timeline>
-            {experiences.map((experience, index) => (
-              <TimelineItem>
+            {experiences.map((experience) => (
+              <TimelineItem key={experience.id}>
                 <TimelineSeparator>
                   <TimelineDot variant="outlined" color="secondary" />
                   {index !== experiences.length - 1 && (
