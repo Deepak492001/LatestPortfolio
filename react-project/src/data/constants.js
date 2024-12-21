@@ -202,7 +202,7 @@ export const projects = [
     title: "Blogify",
     date: "Jan 2024 - Mar 2024",
     description:
-      "Connect-With-Expert: A React-based web app connecting juniors with expert mentors. Features include a curated list of seniors by expertise and a self-mailing system powered by Google SMTP, fostering seamless communication and guidance exchange.",
+      "A blogging platform where users can explore, post, and bookmark blogs on various topics. It offers features like keyword-based search, category filtering, and the ability to comment on blog posts.",
     image:
       "https://github.com/Deepak492001/BLogify/blob/main/readme/assets/blogify.png?raw=true",
     tags: [
@@ -221,7 +221,7 @@ export const projects = [
     title: "News Web Application",
     date: "Nov 2023 - Dec 2023",
     description:
-      "Introducing a Ruby on Rails CMS designed for content creation, monetization, and community engagement. This system enables seamless CRUD operations for users and posts, integrates advanced search, filtering, and post analytics for improved content performance, and incorporates user following, recommendations, and Razorpay integration for effortless content monetization.",
+      "A dynamic news aggregator web app displaying the latest articles from multiple sources and categories. It provides detailed article information, including title, content, author, and publication date, with direct links to original sources.",
     image:
       "https://github.com/Deepak492001/News-Website/raw/main/news-website/assets/newssphere.png",
     tags: ["HTML", "CSS", "Javascript"],
