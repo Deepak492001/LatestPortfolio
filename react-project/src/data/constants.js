@@ -26,21 +26,17 @@ const Img = styled.img`
   }
 `;
 
+export const myName = "Deepak Bisht";
+
 export const Bio = {
   name: "Deepak Bisht",
-  roles: [
-    "Full Stack Developer",
-    "Backend Developer",
-    "Java Developer",
-    // "Ruby On Rails Developer",
-  ],
+  roles: ["Full Stack Developer", "Backend Developer", "Java Developer"],
   description:
-    "I'm an enthusiastic Software Development Engineer at Cogoport, a graduate of IIT BHU. Proficient in React and Django, I'm committed to delivering impactful solutions with a positive mindset. Let's collaborate and create excellence together!",
-  github: "https://github.com/Deepak492001",
-  resume:
-    "https://drive.google.com/file/d/1FGng3yL27cqc9V-40Y2wgJEVXZhIo0eO/view",
-  linkedin: "https://www.linkedin.com/in/deepak-bisht-1a7bb7281/",
-    twitter:"https://x.com/BishtDeepak2001?t=4SCf4W-DiIGdZk9PVS3v3A&s=35" ,
+    "A passionate and dedicated fresher with a strong foundation in Java development, eager to apply my skills to real-world projects. Proficient in core Java, object-oriented programming, and frameworks like Spring Boot, with hands-on experience through academic projects. Committed to continuous learning, writing clean code, and delivering efficient solutions to complex problems.",
+  github: import.meta.env.VITE_GITHUB_URL,
+  resume: import.meta.env.VITE_RESUME_URL,
+  linkedin: import.meta.env.VITE_LINKEDIN_URL,
+  twitter: import.meta.env.VITE_TWITTER_URL,
   insta: "#",
   facebook: "#",
 };
@@ -49,16 +45,10 @@ export const skills = [
   {
     title: "Backend",
     skills: [
-
-      {
-        name: "Java",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlFFyY16N5NRhzoG24RqB7x8Ok2t8Bdgs-tuMsOBXS2Q&amp;s",
-      },
-
       {
         name: "Spring Boot",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/2560px-Ruby_On_Rails_Logo.svg.png"
+        image:
+          "https://www.coderscampus.com/wp-content/uploads/2016/06/spring-boot-project-logo.png",
       },
 
       {
@@ -66,13 +56,10 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
-      {
-        name: "React",
-        image: "https://www.postgresql.org/media/img/about/press/elephant.png",
-      },
+
       {
         name: "Hibernate",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+        image: "https://cdn.worldvectorlogo.com/logos/hibernate.svg",
       },
     ],
   },
@@ -86,16 +73,10 @@ export const skills = [
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
 
-
       {
         name: "Tailwind Css",
         image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-      },
-      {
-        name: "Material UI",
-        image:
-          "data:image/png;base64,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",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/768px-Tailwind_CSS_Logo.svg.png?20230715030042",
       },
     ],
   },
@@ -105,25 +86,7 @@ export const skills = [
     skills: [
       {
         name: "Java",
-        image:"https://asset.cloudinary.com/dwigyxqql/838bbcf31ca59af89b6b944db3854acc",
-      },
-
-      {
-        name: "C",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/695px-C_Programming_Language.svg.png",
-      },
-
-      {
-        name: "C++",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQES6uMo7A9fEcHvIPZPjqzDPXcIj6t3ijorXvpnGU7GA&s",
-      },
-
-      {
-        name: "Ruby",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiRYcRiowc7Gv-daWRi0tKJ3pLFgDO6BfLJUh2-sA9Lw&s",
+        image: "https://cdn.worldvectorlogo.com/logos/java-14.svg",
       },
 
       {
@@ -140,11 +103,6 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
       },
-      {
-        name: "SQL",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png",
-      },
     ],
   },
 ];
@@ -157,13 +115,7 @@ export const experiences = [
     company: "Cogoport Pvt. Ltd.",
     date: "Sept 2023 - Present",
     desc: "Migrated shipment services to microservices, resulting in a 40% decrease in processing time. Additionally, I've developed tools for managing supplier locations and improved platform communication, driving efficiency and collaboration.",
-    skills: [
-      "Django",
-      "React",
-      "Python",
-      "Javascript",
-      "ROR",
-    ],
+    skills: ["Django", "React", "Python", "Javascript", "ROR"],
   },
   {
     id: 0,
@@ -172,11 +124,7 @@ export const experiences = [
     company: "GK Infotech",
     date: "May 2022 - July 2022",
     desc: "Developed a Communication Practicing Android App using Django, integrating WebRTC and Web Socket. I also created backend models for users, creators, and lessons using Django.",
-    skills: [
-      "Django",
-      "Python",
-      "AWS",
-    ],
+    skills: ["Django", "Python", "AWS"],
   },
   {
     id: 1,
@@ -234,15 +182,15 @@ export const projects = [
     // image:
     //   "https://private-user-images.githubusercontent.com/80153001/306409370-9e2f7d17-84fa-436b-afa2-1e6349db3b3d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA0MTU2MzEsIm5iZiI6MTcxMDQxNTMzMSwicGF0aCI6Ii84MDE1MzAwMS8zMDY0MDkzNzAtOWUyZjdkMTctODRmYS00MzZiLWFmYTItMWU2MzQ5ZGIzYjNkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzE0VDExMjIxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI1ZDcyYzcxN2ZhMDBlZmYyM2M1YWQzYWY3N2RjMmNiNTFlMmVjOTIzM2EwZDc3OTYyOTNjMDQ3NmQ5Y2NmMzMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.0OtHlNhaNpLvgpnYu8zBnYDLDHcmFsoxjus-0u81sI8",
     // image: "https://github.com/virendra-pilaniya/my_portfolio/blob/gh-pages/static/media/knockOut.37570c13be4b7c991d60.png?raw=true",
-image:"https://github.com/Deepak492001/Roomies/blob/4cb15367362a99f78f69978c215a7ac56971342e/readmefiles/roomies.png",
+    image:
+      "https://github.com/Deepak492001/Roomies/blob/4cb15367362a99f78f69978c215a7ac56971342e/readmefiles/roomies.png",
     tags: [
       "React",
-      "Django",
-      "Python",
-      "Javascript",
-      "Vercel",
-      "PythonAnywhere",
-
+      "Spring Boot",
+      "MySQL",
+      "Cloudinary Cloud",
+      "Hibernate",
+      "Tailwind CSS",
     ],
     category: "web app",
     github: "https://github.com/Deepak492001/Roomies",
@@ -256,9 +204,16 @@ image:"https://github.com/Deepak492001/Roomies/blob/4cb15367362a99f78f69978c215a
       "Connect-With-Expert: A React-based web app connecting juniors with expert mentors. Features include a curated list of seniors by expertise and a self-mailing system powered by Google SMTP, fostering seamless communication and guidance exchange.",
     image:
       "https://github.com/virendra-pilaniya/my_portfolio/blob/gh-pages/static/media/connect_with_expert.c90656c15401e60d8a0d.png?raw=true",
-    tags: ["React Js", "Javascript", "HTML", "CSS", "Firebase", "Material UI"],
+    tags: [
+      "React Js",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Spring Boot",
+      "Tailwind CSS",
+    ],
     category: "web app",
-    github: "https://github.com/virendra-pilaniya/ConnectWithExpert",
+    github: "https://github.com/Deepak492001/BLogify",
     webapp: "https://connect-with-expert.netlify.app/",
   },
   {
@@ -269,17 +224,12 @@ image:"https://github.com/Deepak492001/Roomies/blob/4cb15367362a99f78f69978c215a
       "Introducing a Ruby on Rails CMS designed for content creation, monetization, and community engagement. This system enables seamless CRUD operations for users and posts, integrates advanced search, filtering, and post analytics for improved content performance, and incorporates user following, recommendations, and Razorpay integration for effortless content monetization.",
     image:
       "https://github.com/virendra-pilaniya/my_portfolio/blob/gh-pages/static/media/contentverse.922a120f8ddab0ffa5c6.png?raw=true",
-    tags: [
-      "Ruby",
-      "Rails",
-      "Rails ORM",
-      "HTML",
-      "CSS",
-    ],
+    tags: ["HTML", "CSS", "Javascript"],
     category: "web app",
-    github: "https://github.com/virendra-pilaniya/Backend-Rails-Medium/tree/master",
-    webapp: "https://github.com/virendra-pilaniya/Backend-Rails-Medium/tree/master",
-  }
+    github: "https://github.com/Deepak492001/News-Website",
+    webapp:
+      "https://github.com/virendra-pilaniya/Backend-Rails-Medium/tree/master",
+  },
   // ,
   // {
   //   id: 2,
@@ -320,7 +270,6 @@ image:"https://github.com/Deepak492001/Roomies/blob/4cb15367362a99f78f69978c215a
   //   github: "https://github.com/virendra-pilaniya/prastuti-meta-fest",
   //   webapp: "https://github.com/virendra-pilaniya/prastuti-meta-fest",
   // },
-
 ];
 
 export const TimeLineData = [
