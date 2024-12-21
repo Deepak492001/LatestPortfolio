@@ -13,11 +13,11 @@ import {
   MobileNavLogo,
   MobileLink,
 } from "./NavbarStyledComponent";
-import { DiCssdeck } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
 import { Bio } from "../../data/constants";
 import { Close, CloseRounded } from "@mui/icons-material";
 import { useTheme } from "styled-components";
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -35,7 +35,16 @@ const Navbar = () => {
               cursor: "pointer",
             }}
           >
-            <DiCssdeck size="3rem" /> <Span>Deepak Bisht</Span>
+
+            <span
+              style={{
+                fontFamily: "'Marck Script', serif",
+                fontSize: "2.5rem",
+                color: "#DA498D", // Hex color code
+              }}
+            >
+              DeepakBisht
+            </span>
           </a>
         </NavLogo>
         <MobileIcon>
