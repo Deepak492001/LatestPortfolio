@@ -54,7 +54,7 @@ export const skills = [
       {
         name: "MySQL",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+          "https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/MySQL_logo.svg/150px-MySQL_logo.svg.png",
       },
 
       {
@@ -178,18 +178,19 @@ export const projects = [
     title: "Roomies",
     date: "Apr 2024 - Jul 2024",
     description:
-      "A WebApp that provides platform for Boxing lovers around the world join Live-fight rooms, and have discusion about the on-going live events",
+     "A room rental web application designed to connect people looking for roommates or rental spaces. It allows users to post and browse room listings, sort and search by criteria like rent, location, and amenities, save rooms to a watchlist,  featuring user authentication, infinite scrolling, and integration with Cloudinary for image and video management.",
+
     // image:
     //   "https://private-user-images.githubusercontent.com/80153001/306409370-9e2f7d17-84fa-436b-afa2-1e6349db3b3d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA0MTU2MzEsIm5iZiI6MTcxMDQxNTMzMSwicGF0aCI6Ii84MDE1MzAwMS8zMDY0MDkzNzAtOWUyZjdkMTctODRmYS00MzZiLWFmYTItMWU2MzQ5ZGIzYjNkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzE0VDExMjIxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI1ZDcyYzcxN2ZhMDBlZmYyM2M1YWQzYWY3N2RjMmNiNTFlMmVjOTIzM2EwZDc3OTYyOTNjMDQ3NmQ5Y2NmMzMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.0OtHlNhaNpLvgpnYu8zBnYDLDHcmFsoxjus-0u81sI8",
     // image: "https://github.com/virendra-pilaniya/my_portfolio/blob/gh-pages/static/media/knockOut.37570c13be4b7c991d60.png?raw=true",
     image:
-      "https://github.com/Deepak492001/Roomies/blob/4cb15367362a99f78f69978c215a7ac56971342e/readmefiles/roomies.png",
+      "https://github.com/Deepak492001/Roomies/blob/main/readmefiles/roomies.png?raw=true",
     tags: [
       "React",
       "Spring Boot",
       "MySQL",
       "Cloudinary Cloud",
-      "Hibernate",
+      "HTML",
       "Tailwind CSS",
     ],
     category: "web app",
@@ -203,12 +204,11 @@ export const projects = [
     description:
       "Connect-With-Expert: A React-based web app connecting juniors with expert mentors. Features include a curated list of seniors by expertise and a self-mailing system powered by Google SMTP, fostering seamless communication and guidance exchange.",
     image:
-      "https://github.com/virendra-pilaniya/my_portfolio/blob/gh-pages/static/media/connect_with_expert.c90656c15401e60d8a0d.png?raw=true",
+      "https://github.com/Deepak492001/BLogify/blob/main/readme/assets/blogify.png?raw=true",
     tags: [
       "React Js",
-      "Javascript",
       "HTML",
-      "CSS",
+      "MySQL",
       "Spring Boot",
       "Tailwind CSS",
     ],
@@ -223,7 +223,7 @@ export const projects = [
     description:
       "Introducing a Ruby on Rails CMS designed for content creation, monetization, and community engagement. This system enables seamless CRUD operations for users and posts, integrates advanced search, filtering, and post analytics for improved content performance, and incorporates user following, recommendations, and Razorpay integration for effortless content monetization.",
     image:
-      "https://github.com/virendra-pilaniya/my_portfolio/blob/gh-pages/static/media/contentverse.922a120f8ddab0ffa5c6.png?raw=true",
+      "https://github.com/Deepak492001/News-Website/raw/main/news-website/assets/newssphere.png",
     tags: ["HTML", "CSS", "Javascript"],
     category: "web app",
     github: "https://github.com/Deepak492001/News-Website",
