@@ -14,6 +14,7 @@ import Experience from "./components/Experience/Experience.jsx";
 import Education from "./components/Education/Education.jsx";
 import ProjectDetails from "./components/ProjectDetails/ProjectDetails.jsx";
 import styled from "styled-components";
+import { Toaster } from "react-hot-toast";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -59,6 +60,7 @@ function App() {
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
           )}
         </Body>
+        <Toaster position="top-center" reverseOrder={false} />
       </Router>
     </ThemeProvider>
   );

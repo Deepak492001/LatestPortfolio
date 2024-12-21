@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { Snackbar } from "@mui/material";
+import toast, { Toaster } from "react-hot-toast";
 
 const Container = styled.div`
   display: flex;
@@ -112,16 +112,6 @@ const ContactButton = styled.input`
     hsla(271, 100%, 50%, 1) 0%,
     hsla(294, 100%, 50%, 1) 100%
   );
-  background: -moz-linear-gradient(
-    225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
-  );
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;
@@ -132,28 +122,52 @@ const ContactButton = styled.input`
 `;
 
 const Contact = () => {
-  //hooks
-  const [open, setOpen] = React.useState(false);
   const form = useRef();
-  // console.log(process.env.REACT_APP_EMAILJS_SERVICE_ID);
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    // Extract form data
+    const formData = new FormData(form.current);
+    const fromEmail = formData.get("from_email").trim();
+    const fromName = formData.get("from_name").trim();
+    const subject = formData.get("subject").trim();
+    const message = formData.get("message").trim();
+
+    // Validation
+    if (!fromEmail || !/\S+@\S+\.\S+/.test(fromEmail)) {
+      toast.error("Please enter a valid email address!");
+      return;
+    }
+    if (!fromName) {
+      toast.error("Name is required!");
+      return;
+    }
+    if (!subject) {
+      toast.error("Subject is required!");
+      return;
+    }
+    if (!message) {
+      toast.error("Message is required!");
+      return;
+    }
+
+    // Send email using emailjs
     emailjs
       .sendForm(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID, // Use environment variable
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         e.target,
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY // Use environment variable
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(
         (result) => {
-          setOpen(true);
+          toast.success("Email sent successfully!");
           form.current.reset();
         },
         (error) => {
-          setOpen(true);
-          console.log(error.text);
+          toast.error("Failed to send email. Please try again.");
+          console.error(error.text);
         }
       );
   };
@@ -161,25 +175,24 @@ const Contact = () => {
   return (
     <Container>
       <Wrapper>
+        <Toaster position="top-center" reverseOrder={false} />
         <Title>Contact</Title>
         <Desc>
           Feel free to reach out to me for any questions or opportunities!
         </Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
+          <ContactInput placeholder="Your Email" required name="from_email" />
+          <ContactInput placeholder="Your Name" required name="from_name" />
+          <ContactInput placeholder="Subject" required name="subject" />
+          <ContactInputMessage
+            placeholder="Message"
+            required
+            rows="4"
+            name="message"
+          />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
-        <Snackbar
-          open={open}
-          autoHideDuration={6000}
-          onClose={() => setOpen(false)}
-          message="Email sent successfully!"
-          severity="success"
-        />
       </Wrapper>
     </Container>
   );
